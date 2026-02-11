@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Yellowtail&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.head{
+    background-color: #FFFFFFE5;
+    display: flex;
+    height: 20vh;
+}
+
+.logo{
+    transform: translate(80px, 30px);
+}
+
+.link a{
+    text-decoration: none;
+    color: black;
+}
+
+.link{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    transform: translate(150px, 52px);
+    font-family: 'Roboto', sans-serif;
+    gap: 30px;
+    font-size: 15px;
+    margin-left: 50px;
+}
+
+.btn{
+    margin-left: 100px;
+    border-radius: 40px;
+    width: 180px;
+    height: 30px;
+    margin-top: -8px;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    padding-left: 10px;
+}
+
+.img1{
+    width: 180px;
+    height: 30px;
+    transform: translate(90px, 45px);
+}
+
+.main{
+    height: 100vh;
+    background-color: ghostwhite;
+}
+
+.hero{
+    position: relative;
+}
+
+.img0-group{
+    position: absolute;
+    transform: translate(0px, -300px);
+    height: 200px;
+    width: auto;
+}
+
+.img1-group{
+    position: absolute;
+    transform: translate(0px, 90px);
+    height: 200px;
+    width: auto;
+}
+.img2-group{
+    position: absolute;
+    transform: translate(1050px, 100px);
+    height: 200px;
+    width: auto;
+}
+.img3-group{
+    position: absolute;
+    transform: translate(500px, -250px);
+    height: 80px;
+    width: auto;
+    
+}
+.img4-group{
+    position: absolute;
+    transform: translate(1080px, -293px);
+    height: 200px;
+    width: auto;
+    
+}
+
+.content-h2{
+    font-family: 'Yellowtail', sans-serif;
+    color: #68A47F;
+    display: flex;
+    transform: translate(180px, 150px);
+    font-size: 25px;
+}
+.content-h1{
+    font-family: 'Roboto', sans-serif;
+    color: #274C5B;
+    transform: translate(180px, 150px);
+    font-size: 40px;
+}
+.btn_main{
+    font-family: 'Roboto', sans-serif;
+    background-color: #EFD372;
+    transform: translate(180px, 150px);
+    height: 60px;
+    width: 150px;
+    border-radius: 20px;
+    color: #274C5B;
+    font-size: 13px;
+}
